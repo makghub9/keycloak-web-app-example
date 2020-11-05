@@ -1,7 +1,8 @@
 {
-  "realm" : "example",
-  "auth-server-url" : "http://localhost:8090/auth",
-  "ssl-required" : "external",
-  "resource" : "tpm-web-app",
-  "public-client" : true
+  "realm": "example",
+  "auth-server-url": "http://mykcsso.azurewebsites.net/auth/",
+  "ssl-required": "external",
+  "resource": "tpm-web-app",
+  "public-client": true,
+  "confidential-port": 0
 }
